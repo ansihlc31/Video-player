@@ -1,0 +1,154 @@
+#smallimg{
+    position: absolute;
+    height:50px;
+  margin:20px ;
+   
+  
+}
+body{
+    margin: 0px;
+  background:gray;
+    display: flex;
+      justify-content:center;
+      height: auto;
+      
+      align-items: center;
+}
+
+
+#bars{
+    font-size: 20px;
+    
+}
+#mainpart{
+   
+    background:#ffffffde;
+    height:auto;
+    max-width: 700px;
+      min-width: 700px;
+}
+#search{
+   display:inline;
+    font-size:23px;
+    margin: 20%; 
+    border: 1px solid black;
+ 
+}
+#Search{
+
+    font-size:20px;
+
+    margin:30px 0;
+}
+
+    .firstpart{
+        position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+        background-color: green;
+        height: 100px;
+    }
+    #video{
+        height: 100px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .video1  ,.video2,.video3,.video4,.video5,.video6,.video7{
+        display:flex;
+        cursor: pointer;
+        
+    }
+
+    p{
+        font-size:20px;
+        text-decoration: underline;
+        margin: 10px 3px;
+        padding:1rem;
+    }
+
+
+    .video-continer{
+        position:fixed;
+        top:50%;
+        left: 50%;
+       transform:translate(-50% ,-50%);
+       width:100%;
+       height:50vh;
+       display: flex;
+       justify-content: center;
+       height: 100vh;
+       align-items: center;
+       background-color: black;
+ 
+    }
+   
+   
+    .video-continer video{
+       position: relative;
+       max-width: 900px;
+       outline:none;
+    }
+   
+    @media (max-width:901px) {
+       .video-continer video{
+           max-width: 90%;
+   
+       }
+       
+    }
+
+    
+
+
+  .icon ,.icons{
+    position: absolute;
+   top:30px;
+   right:30px;
+  }
+
+  .active{
+    display:none;
+  }
+
+  #videoOne , #videoTwo{
+    display:none;
+  }
+
+
+  #mainpart .forBars{
+    /* Hidden by default */
+    display:none;
+    position: fixed; /* Stay in place */
+   
+    left: 50%;
+    top: 15%;
+    width: 345px; /* Full width */
+    height: 100vh; /* Full height */
+   background-color:white;
+   border-radius:10px;
+   
+      
+
+  }
+
+  #first{
+    display: flex;
+  }
+  #first{
+    position: relative;
+    height: 100px;
+    margin:50px;
+
+  }
+  #anish{
+    padding: 1rem;
+  }
+   
+
+  #addThing{
+ font-size:30px;
+ margin: 5px;
+ cursor: pointer;
+  }
+
+ 
