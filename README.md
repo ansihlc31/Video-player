@@ -14,6 +14,7 @@ In main part we can found seven video with their name(which is random)
 
 
 Result after clicking bar
+
 ![Screenshot from 2023-01-20 23-07-39](https://user-images.githubusercontent.com/120950089/213780100-545ed508-a233-4d25-8e3e-0eb6b974b83c.png)
 
 
